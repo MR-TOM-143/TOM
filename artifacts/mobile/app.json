@@ -37,6 +37,11 @@
       "typedRoutes": true,
       "reactCompiler": true
     },
-    "owner": "xerotic.top"
+    "owner": "xerotic.top",
+    "extra": {
+      "eas": {
+        "projectId": "42eda892-c223-4e8b-936b-18d2e39deae7"
+      }
+    }
   }
 }
