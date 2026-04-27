@@ -1,49 +1,38 @@
-# See https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
-
-# compiled output
-dist
-tmp
-out-tsc
-*.tsbuildinfo
-.expo
-.expo-shared
-
 # dependencies
-node_modules
+node_modules/
 
-# IDEs and editors
-/.idea
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
 
-# IDE - VSCode
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
+# Native
+ios/
+android/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
 
-# misc
-/.sass-cache
-/connect.lock
-/coverage
-/libpeerconnection.log
-npm-debug.log
-yarn-error.log
-testem.log
-/typings
+# Metro
+.metro-health-check*
 
-# System Files
+# Debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# OS
 .DS_Store
-Thumbs.db
+*.pem
 
-.cursor/rules/nx-rules.mdc
-.github/instructions/nx.instructions.md
+# Local env
+.env
+.env*.local
 
-# Replit
-.cache/
-.local/
+# TypeScript
+*.tsbuildinfo
+.tsbuildinfo
