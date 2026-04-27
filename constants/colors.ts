@@ -1,49 +1,52 @@
 const colors = {
   light: {
-    text: "#F0F2F5",
-    tint: "#1877F2",
+    text: "#E8ECF4",
+    tint: "#4F8EF7",
 
-    background: "#0B0E17",
-    foreground: "#F0F2F5",
+    background: "#07090F",
+    foreground: "#E8ECF4",
 
-    card: "#1A1D2E",
-    cardForeground: "#F0F2F5",
+    card: "#0D1120",
+    cardForeground: "#E8ECF4",
 
-    primary: "#1877F2",
+    primary: "#4F8EF7",
     primaryForeground: "#FFFFFF",
 
-    secondary: "#252840",
-    secondaryForeground: "#F0F2F5",
+    secondary: "#131927",
+    secondaryForeground: "#B8C4D8",
 
-    muted: "#1A1D2E",
-    mutedForeground: "#8A93A2",
+    muted: "#0D1120",
+    mutedForeground: "#5C6B85",
 
-    accent: "#1877F2",
-    accentForeground: "#FFFFFF",
+    accent: "#38BDF8",
+    accentForeground: "#07090F",
 
-    destructive: "#EF4444",
+    destructive: "#F05252",
     destructiveForeground: "#FFFFFF",
 
-    border: "#2A2E42",
-    input: "#252840",
+    border: "#182035",
+    input: "#101726",
 
-    success: "#22C55E",
+    success: "#10B981",
     successForeground: "#FFFFFF",
 
     warning: "#F59E0B",
     warningForeground: "#000000",
 
-    info: "#60A5FA",
+    info: "#38BDF8",
     infoForeground: "#000000",
 
-    sheetBg: "#FFFFFF",
-    sheetText: "#111827",
-    sheetMuted: "#6B7280",
-    sheetBorder: "#E5E7EB",
-    sheetUid: "#1877F2",
+    highlight: "#1A2F52",
+    highlightForeground: "#93C5FD",
+
+    sheetBg: "#0D1120",
+    sheetText: "#E8ECF4",
+    sheetMuted: "#5C6B85",
+    sheetBorder: "#182035",
+    sheetUid: "#4F8EF7",
   },
 
-  radius: 10,
+  radius: 14,
 };
 
 export default colors;
